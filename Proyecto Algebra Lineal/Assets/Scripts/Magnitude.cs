@@ -74,7 +74,7 @@ public class Magnitude : MonoBehaviour
 		//Debug.Log("Unity Magnitude is " + gameObject.transform.position.magnitude);
 		//Debug.Log("Unity Normalized Vector is" + gameObject.transform.position.normalized);
 		Debug.Log("Unity distance is" + Vector3.Distance(gameObject.transform.position, punto2.transform.position));
-		
+		Debug.Log("Unity Cross is" + Vector3.Cross(gameObject.transform.position, punto2.transform.position));
 		
 	}
 	
@@ -90,15 +90,8 @@ public class Magnitude : MonoBehaviour
 		
 		distance = Mathf.Sqrt((x3 * x3 ) + (y3 * y3 ) + (z3 * z3));
 		Debug.Log("MyDistance is" + distance);
-		
-		
-		
-	
-		
-		
 	}
    
-	
     
 	void Prepare()
 	{
